@@ -1,34 +1,34 @@
-git init ��ʼ��git;
+git init 初始化git;
 
-֤���Լ�����¼�Լ���github
+证明自己；登录自己的github
 
-git config --global user.name �����git���ơ�
+git config --global user.name “你的git名称”
 
-git config --global user.email �����git��֤���䡱
+git config --global user.email “你的git验证邮箱”
 
-����һ���汾�ܹ���Ϊ������
+添加一个版本总共分为三步；
 
-1.�����ӹ�ȥ  git add �ļ�����=���ݴ�����
+1.先添加过去  git add 文件名；=》暂存区；
 
-git status =>�鿴git add�Ƿ�ɹ���
+git status =>查看git add是否成功；
 
-��ɫ�ɹ�����ɫ���ɹ���
+绿色成功；红色不成功；
 
-2.�Ž��汾���У�
+2.放进版本库中；
 
-git commit =>�Ž��汾��֮�У�
+git commit =>放进版本库之中；
 
--m => ���е��ݴ����е��ļ���
+-m => 所有的暂存区中的文件；
 
-��ע�͡�=>������ע�ͣ���ǰ�汾�ύע����Ϣ��
+“注释”=>必须有注释；当前版本提交注释信息；
 
-�汾��־��git reflog;
+版本日志：git reflog;
 
-�汾�˻أ� git reset --hard �汾�ţ�
+版本退回： git reset --hard 版本号；
 
-�鿴�汾��ͬ�� git diff;
+查看版本不同： git diff;
 
 
-
+。。。。。。。。
 
 
